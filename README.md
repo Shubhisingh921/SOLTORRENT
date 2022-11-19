@@ -30,7 +30,9 @@ Security and legal inconfidence
 </pre>
 
 ## Problem it Solves
-
+- Removes Seeders and Leecher.
+- No multiple copy of same data like classic torrents.
+- More secure and accountable
 - Files can be stored  on-chain directly via Solana Accounts.
 - A specialized file chain, to drastically reduce the uploading cost. Links to those files are then maintained on chain.
 - All the assets are encrypted by default using a key derived from a Solana Wallet.
@@ -42,7 +44,7 @@ Security and legal inconfidence
 - Implementing a built-in note editor enables online notes edition.
 - Installing anchor version.
 - Deploying Smart contract.
-- integrating multiple wallet solana payment gateway.
+- Integrating multiple solana wallets
 
 ## Proposed Enhancements
 - Curated database of contents on solana blockchain 
