@@ -1,7 +1,15 @@
 ![](./Image-Assets/img1.gif)
-# SolTorrent🌈
+# SOL Torrent
 # [Download App](https://drive.google.com/file/d/1ngIqac-RW3cpfyQvApUVhhUeo4EiUvDS/view?usp=share_link)   
- SolTorrent is completely on-chain cloud storage platform on [Solana](https://solana.com/), featuring a file manager to organise files and folders, a text editor to easily edit text files and take notes, as well as several file viewers to explore the stored files directly online.
+SOL torrent aims at providing an alternative to classic P2P sharing based on SOLANA BLOCKCHAIN
+
+###Motive
+Torrenting is a classic example of P2P file sharing.
+Major issues with classic torrents are :
+More copies of same data
+Seeder vs Leecher Conflict
+Security and legal inconfidence
+
 
 ### Feature of SolTorrent
 - Solana Wallet Support, can approve through Solflare wallet, Phantom Wallet & Slope Wallet.
