@@ -5,11 +5,11 @@ SOL torrent aims at providing an alternative to classic P2P sharing based on SOL
 
 
 ### Motive
-Torrenting is a classic example of P2P file sharing.
-Major issues with classic torrents are :
-More copies of same data
-Seeder vs Leecher Conflict
-Security and legal inconfidence
+- Torrenting is a classic example of P2P file sharing.
+- Major issues with classic torrents are :
+- More copies of same data
+- Seeder vs Leecher Conflict
+- Security and legal inconfidence
 
 
 ### Feature of SolTorrent
