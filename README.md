@@ -1,81 +1,52 @@
-# SolDrive
+![](./Image-Assets/img1.gif)
+# SolTorrent🌈
+# [Download App](https://drive.google.com/file/d/1ngIqac-RW3cpfyQvApUVhhUeo4EiUvDS/view?usp=share_link)   
+ SolTorrent is completely on-chain cloud storage platform on [Solana](https://solana.com/), featuring a file manager to organise files and folders, a text editor to easily edit text files and take notes, as well as several file viewers to explore the stored files directly online.
 
-An on-chain cloud storage with encryption and file manager on Solana
-
-[![Runs on solana](https://img.shields.io/badge/Runs%20on-solana-green.svg?style=flat-square)](https://solana.com/)
-[![Made with anchor](https://img.shields.io/badge/Made%20with-anchor-purple.svg?style=flat-square)](https://github.com/coral-xyz/anchor)
-[![SolDrive online](https://img.shields.io/badge/SolDrive-online-blue.svg?style=flat-square)](https://soldrive.xyz)
-
-<div align="center">
-  <img src="src/assets/logo-transparent.png" height="128" style="margin-top: 15px; margin-bottom: 15px; object-fit: contain">
-</div>
-
-SolDrive is completely on-chain cloud storage platform on [Solana](https://solana.com/), featuring a file manager to organise files and folders, a text editor to easily edit text files and take notes, as well as several file viewers to explore the stored files directly online.
-
-## Give it a try!
-
-SolDrive is accessible online at [soldrive.xyz](https://soldrive.xyz)
-
-## Backends
-
-Files and notes can be stored both on-chain directly Solana Accounts, or on [Arweave](https://www.arweave.org/), a specialised file chain, to drastically reduce the uploading cost. Links to those files are then maintained on chain. Regardless of the backend chosen, the hosting is paid once on a data size basis and the data lives forever.
-
-<div align="center">
-  <img src="src/assets/solana-large.png" width="128" style="margin-top: 15px; margin-bottom: 15px; object-fit: contain">
-</div>
-<div align="center">
-  <img src="src/assets/arweave-large.png" width="128" style="margin-top: 15px; margin-bottom: 15px; object-fit: contain">
-</div>
-
-## Encryption
-
-All the assets are encrypted by default using a key derived from a Solana Wallet. No need to remember yet another password. Assets can also be shared unencrypted with read and edit rights for collaborative text editing (feature coming soon).
-
-<div align="center">
-  <img src="src/assets/data-encryption.png" height="128" style="margin-top: 15px; margin-bottom: 15px; object-fit: contain">
-</div>
-
-## File support
-
-Any file can be stored, and several file types can be opened directly on Soldrive, including text documents, images, videos, audio files and PDFs. A built-in note editor enables online notes edition.
-
-## File manager
-
-<div align="center">
-  <img src="src/assets/readme/ui.png" style="margin-top: 15px; margin-bottom: 15px; object-fit: contain">
-</div>
-
-# Build & run
-
-Run the tests
-
-```bash
-cd anchor
-anchor test
-```
-
-Run a local validator on localhost:8899
-
-```bash
-solana-test-validator
-```
-
-Build & deploy the contract
-
-```bash
-anchor build 
-anchor deploy
-```
-
-Run the client
-
-```bash
-yarn install
-yarn dev
-```
+### Feature of SolTorrent
+- Solana Wallet Support, can approve through Solflare wallet, Phantom Wallet & Slope Wallet.
+- The user can sign in using any Solana based wallet.
+- The user can upload files, notes, pdf to the Solana blockchain.
+- The uploaded content can be set as private or public.
+- Each upload cost some SOLs and this ensures that the data stays forever on the blockchain.
+- The links to the uploaded content can be shared to download via wallet transaction.
 
 
-<!-- Feedback -->
-<!-- Hover on tooltip  -->
-<!-- Drag drop -->
-<!--  -->
+### ScreenShots of SolTorrent 
+<pre>
+<img src="./images/img1.jpg" alt="1" width="300" height="600" /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" /> <img src="./images/img4.jpg" alt="1" width="300" height="600" /> <img src="./images/img5.jpg" alt="1"
+	 width="300" height="600" /> <img src="./images/img6.jpg" alt="1"
+	 width="300" height="600" /> <img src="./images/img7.jpg" alt="1"
+	 width="300" height="600" />
+
+</pre>
+
+## Problem it Solves
+
+- Files can be stored  on-chain directly via Solana Accounts.
+- A specialized file chain, to drastically reduce the uploading cost. Links to those files are then maintained on chain.
+- All the assets are encrypted by default using a key derived from a Solana Wallet.
+- Minimalistic UX. Easy to access features. 
+
+## Challenges we faced
+
+- Implementing Devnet,localnet and testnet.
+- Implementing a built-in note editor enables online notes edition.
+- Installing anchor version.
+- Deploying Smart contract.
+- integrating multiple wallet solana payment gateway.
+
+## Proposed Enhancements
+- Curated database of contents on solana blockchain 
+- Provide liquidity to SOL torrents and earn fees
+- P2P trades
+- Schedule origin tracking for contents
+
+
+### Contributors
+- Shashank Kumar
+- Aman Gupta
+- Richa Agrawal
+- Shubhi Singh
+
+Built with ❤️ by Team C.O.D.E
